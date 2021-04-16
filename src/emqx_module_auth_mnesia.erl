@@ -59,7 +59,6 @@
       229, 136, 182>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId, #{<<"password_hash">> := PasswordHash} = Params) ->
   application:set_env(emqx_auth_mnesia, password_hash, binary_to_atom(PasswordHash, utf8)),

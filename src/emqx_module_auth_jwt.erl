@@ -138,7 +138,6 @@
     zh => <<74, 87, 84, 32, 232, 174, 164, 232, 175, 129>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModId, Params) ->
   _ = application:ensure_all_started(jose),

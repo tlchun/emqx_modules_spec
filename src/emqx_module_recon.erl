@@ -19,7 +19,7 @@
   params => #{}, status => on_module_status,
   title => #{en => <<82, 101, 99, 111, 110>>, zh => <<82, 101, 99, 111, 110>>}, type => devops, update => on_module_update}).
 
--vsn("4.2.2").
+
 
 on_module_create(_ModuleId, _Config) ->
   _ = application:ensure_all_started(recon),

@@ -392,7 +392,6 @@
       185, 231, 187, 132>>},
   type => message, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModuleId,
     Config = #{<<"servers">> := Servers,

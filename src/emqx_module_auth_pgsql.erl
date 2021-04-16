@@ -392,7 +392,6 @@
       151, 174, 230, 142, 167, 229, 136, 182>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModuleId,
     Config = #{<<"server">> := Server, <<"user">> := User,

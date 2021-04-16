@@ -375,8 +375,6 @@
       229, 136, 182>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
-
 on_module_create(ModuleId,
     Config = #{<<"type">> := Type0, <<"server">> := Server,
       <<"database">> := Database,

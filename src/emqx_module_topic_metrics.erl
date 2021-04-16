@@ -31,7 +31,6 @@
       142, 167>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId, _) ->
   emqx_modules_sup:start_child(emqx_mod_topic_metrics,

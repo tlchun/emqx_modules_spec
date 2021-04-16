@@ -308,7 +308,6 @@
       180, 185, 231, 187, 132>>},
   type => message, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ResId,
     Config = #{<<"servers">> := Servers,

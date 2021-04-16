@@ -45,7 +45,6 @@
       232, 175, 129>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModuleId, Params) ->
   File = emqx_module_utils:save_upload_file(Params,

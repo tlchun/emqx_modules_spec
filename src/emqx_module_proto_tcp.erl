@@ -801,7 +801,6 @@
       189, 145, 229, 133, 179>>},
   type => protocol, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModId, Config) ->
   ListenerCfgs =

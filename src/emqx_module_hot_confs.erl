@@ -26,7 +26,6 @@
     zh => <<231, 131, 173, 233, 133, 141, 231, 189, 174>>},
   type => devops, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModId, _Config) ->
   PluginsEtcDir = emqx:get_env(plugins_etc_dir),

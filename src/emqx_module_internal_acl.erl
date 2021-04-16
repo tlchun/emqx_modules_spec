@@ -56,7 +56,6 @@
       135, 228, 187, 182>>},
   type => auth, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(ModuleId,
     #{<<"acl_rule_file">> := File}) ->

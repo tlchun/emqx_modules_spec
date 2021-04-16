@@ -55,7 +55,6 @@
       128, 154, 231, 159, 165>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId, #{<<"qos">> := QoS}) ->
   Env = [{qos, QoS}],

@@ -80,7 +80,6 @@
       104, 101, 117, 115, 32, 65, 103, 101, 110, 116>>},
   type => devops, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId,
     #{<<"url">> := Url0, <<"interval">> := Interval0}) ->

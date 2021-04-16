@@ -16,10 +16,6 @@
 -include("../include/logger.hrl").
 -include("../include/emqx.hrl").
 
-
-
--vsn("4.3.0").
-
 init(_Topic, Args) -> {ok, Args}.
 
 handle_message(MessageId, Payload, State) ->

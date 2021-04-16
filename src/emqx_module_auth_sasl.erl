@@ -30,7 +30,6 @@
       232, 174, 164, 232, 175, 129>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId, _) ->
   emqx_sasl:init(),

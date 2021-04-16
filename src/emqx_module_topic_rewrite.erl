@@ -153,7 +153,6 @@
       134, 153>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId, #{<<"rules">> := Rules}) ->
   {PubRules, SubRules} = compile(Rules),

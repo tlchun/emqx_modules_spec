@@ -140,7 +140,6 @@
       230, 182, 136, 230, 129, 175>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId,
     #{<<"storage_type">> := StorageType,

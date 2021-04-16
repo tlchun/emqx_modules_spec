@@ -22,7 +22,6 @@
 -export([start/1]).
 -export([init/2, handle_message/4]).
 
--vsn("4.2.2").
 
 init(_GroupId, State) -> {ok, State}.
 

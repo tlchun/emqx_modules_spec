@@ -155,7 +155,6 @@
       232, 174, 162, 233, 152, 133>>},
   type => module, update => on_module_update}).
 
--vsn("4.2.2").
 
 on_module_create(_ModuleId,
     #{<<"subscription_opts">> := SubOpts0}) ->
