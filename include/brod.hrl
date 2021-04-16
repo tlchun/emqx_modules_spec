@@ -18,7 +18,7 @@
 -define(__BROD_HRL, true).
 
 %% -record(kafka_message, {...}).
--include_lib("kafka_protocol/include/kpro_public.hrl").
+-include_lib("../include/kpro_public.hrl").
 
 -define(BROD_DEFAULT_CLIENT_ID, brod_default_client).
 -define(BROD_CONSUMER_GROUP_PROTOCOL_VERSION, 0).
