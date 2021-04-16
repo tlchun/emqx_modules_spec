@@ -18,7 +18,7 @@
 
 
 
--vsn("4.2.2").
+-vsn("4.3.0").
 
 init(_Topic, Args) -> {ok, Args}.
 
