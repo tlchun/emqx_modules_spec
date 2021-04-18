@@ -9,8 +9,6 @@
 -module(emqx_module_recon).
 -author("root").
 
--module(emqx_module_recon).
-
 -export([on_module_create/2, on_module_destroy/2, on_module_status/2, on_module_update/4]).
 
 -module_type(#{create => on_module_create, description =>
