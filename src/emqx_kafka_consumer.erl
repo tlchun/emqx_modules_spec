@@ -9,8 +9,6 @@
 -module(emqx_kafka_consumer).
 -author("root").
 
--module(emqx_kafka_consumer).
-
 -export([logger_header/0]).
 -include("../include/brod.hrl").
 -include("../include/kpro_public.hrl").
