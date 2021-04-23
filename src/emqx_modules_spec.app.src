@@ -1,6 +1,6 @@
 {application,emqx_modules_spec,
              [{description,"Modules spec for emqx enterprise"},
-              {vsn,"4.3.0"},
+              {vsn,"4.2.5"},
               {registered,[]},
               {applications,[kernel,stdlib]},
               {env,[]},
